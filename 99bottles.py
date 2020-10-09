@@ -1,11 +1,11 @@
->>> def botts(num):
+def botts(num):
 	if num == 0:
 		return 'No bottles '
 	if num == 1:
 		return '1 bottle '
 	return str(num) + ' bottles '
 
->>> def bottles(num, orig = -1):
+def bottles(num, orig = -1):
 	if num < 0:
 		return
 	if num > orig:
